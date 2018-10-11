@@ -2,40 +2,102 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="myblog:war" />
-      <artifact name="myblog:war exploded" />
+      <artifact name="myblog:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="312e6dc6-c6bb-4da6-b29b-cee455ce6431" name="Default" comment="springboot 配置">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/css/test.css" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/img/1.img" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/static/js/1.js" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/templates/1.jsp" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_jar.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_war.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_war.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/myblog_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/myblog_war_exploded.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/test.css" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/css/test.css" afterPath="$PROJECT_DIR$/out/artifacts/myblog_jar/ad.jsp" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/img/1.img" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/static/js/1.js" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/1.jsp" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/controller/UserController.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/dao/user/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/dao/user/UserMapper.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/service/impl/user/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/service/impl/user/UserServiceImpl.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/service/user/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/service/user/UserService.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/mapper/user/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/user/UserMapper.xml" />
-      <change beforePath="$PROJECT_DIR$/target/myblog.war" afterPath="$PROJECT_DIR$/target/myblog.war" />
+      <change beforePath="$PROJECT_DIR$/target/myblog.war" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/META-INF/MANIFEST.MF" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/application.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/SpringBootStartApplication.class" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/SpringBootStartApplication.class" />
-      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/dao/user/UserMapper.class" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/dao/user/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/service/impl/user/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/service/impl/user/UserServiceImpl.class" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/SpringBootStartApplication.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/controller/UserController.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/dao/user/UserMapper.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/pojo/user/User.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/service/impl/user/UserServiceImpl.class" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/com/myblog/service/user/UserService.class" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/jdbc.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/mapper/user/UserMapper.xml" afterPath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/mapper/user/UserMapper.xml" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/mapper/user/UserMapper.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/spring-mvc.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/classes/spring-mybatis.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/HikariCP-2.7.8.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/asm-1.5.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/aspectjrt-1.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/aspectjweaver-1.8.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/cglib-2.1_3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/classmate-1.3.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/commons-dbcp-1.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/commons-pool-1.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/hibernate-validator-6.0.7.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-core-2.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-databind-2.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-datatype-jdk8-2.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-datatype-jsr310-2.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jackson-module-parameter-names-2.9.4.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/javax.annotation-api-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/jul-to-slf4j-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/log4j-api-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/log4j-to-slf4j-2.10.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/logback-classic-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/logback-core-1.2.3.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/mybatis-3.4.6.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/mybatis-spring-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/mybatis-spring-boot-autoconfigure-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/mybatis-spring-boot-starter-1.3.2.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/mysql-connector-java-8.0.11.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/protobuf-java-2.6.0.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/snakeyaml-1.19.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-aop-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-beans-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-autoconfigure-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-jdbc-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-json-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-logging-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-tomcat-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-boot-starter-web-2.0.0.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-context-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-core-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-expression-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-jcl-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-jdbc-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-tx-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-web-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/spring-webmvc-5.0.4.RELEASE.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/tomcat-embed-core-8.5.28.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/tomcat-embed-el-8.5.28.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/tomcat-embed-websocket-8.5.28.jar" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/lib/validation-api-2.0.1.Final.jar" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/WEB-INF/web.xml" afterPath="" />
       <change beforePath="$PROJECT_DIR$/target/myblog/index.jsp" afterPath="" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="target/" />
     <ignored path="$PROJECT_DIR$/target/classes/" />
     <ignored path="$PROJECT_DIR$/target/myblog/" />
     <ignored path="$PROJECT_DIR$/target/test-classes/" />
+    <ignored path="$PROJECT_DIR$/target/maven-archiver/" />
+    <ignored path="$PROJECT_DIR$/target/maven-status/" />
     <manually-removed-from-ignored>
+      <directory path="$PROJECT_DIR$/out/" />
       <directory path="$PROJECT_DIR$/target/" />
     </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -49,7 +111,7 @@
     <option name="optimizeImportsOnTheFly" value="true" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.71036845">
+    <splitter split-orientation="horizontal" split-proportion="0.44369587">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
@@ -78,41 +140,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+          <file leaf-file-name="application.yml" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="204">
-                  <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/test.css">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1.js" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/static/js/1.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-                  <folding />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="1.jsp" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/main/resources/templates/1.jsp">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="0">
-                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                <state relative-caret-position="170">
+                  <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
                   <folding />
                 </state>
               </provider>
@@ -186,21 +218,31 @@
           <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/pom.xml">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="289">
-                  <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
+                <state relative-caret-position="119">
+                  <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
                   <folding />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="SpringBootStartApplication.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="SpringBootStartApplication.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/SpringBootStartApplication.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="221">
-                  <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+                <state relative-caret-position="85">
+                  <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="ad.jsp" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/out/artifacts/myblog_jar/ad.jsp">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="0">
+                  <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+                  <folding />
                 </state>
               </provider>
             </entry>
@@ -277,11 +319,26 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myblog Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="myblog Maven Webapp" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="97" />
-    <option name="y" value="66" />
     <option name="width" value="1790" />
-    <option name="height" value="1008" />
+    <option name="height" value="1100" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -305,6 +362,24 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
+              <item name="myblog" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+              <item name="artifacts" type="462c0819:PsiDirectoryNode" />
+              <item name="myblog_jar" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -447,31 +522,7 @@
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
               <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="img" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="myblog" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
-              <item name="test-classes" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="myblog" type="b2602c69:ProjectViewProjectNode" />
@@ -492,9 +543,9 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../myblog" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/../../myblog" />
   </component>
   <component name="RecentsManager">
@@ -818,7 +869,7 @@
       <workItem from="1538065478133" duration="1449000" />
       <workItem from="1538070371472" duration="1680000" />
       <workItem from="1538148633169" duration="3901000" />
-      <workItem from="1539279985264" duration="1842000" />
+      <workItem from="1539279985264" duration="4188000" />
     </task>
     <task id="LOCAL-00001" summary="隐藏服务器">
       <created>1537463858979</created>
@@ -862,7 +913,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539281604432</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="springboot 配置">
+      <created>1539281879833</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1539281879833</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -871,15 +929,15 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22723000" />
+    <option name="totallyTimeSpent" value="25069000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="97" y="66" width="1790" height="1008" extended-state="0" />
+    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.10341151" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -893,11 +951,11 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37028572" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3062857" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30529594" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30529594" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32988507" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28728324" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26492536" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -980,35 +1038,12 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/dao/user/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="0" lean-forward="false" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mapper/user/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="43" lean-forward="false" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-          <folding>
-            <marker date="1539280210651" expanded="true" signature="1034:1129" ph="SELECT id,av... b_user" />
-            <marker date="1539280210651" expanded="true" signature="1251:1329" ph="SELECT id,av... b_user" />
-            <marker date="1539280210651" expanded="true" signature="1448:1558" ph="SELECT id,av... b_user" />
-            <marker date="1539280210651" expanded="true" signature="1693:1827" ph="INSERT into b_user... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/pojo/user/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1082,7 +1117,7 @@
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1156,7 +1191,7 @@
         <state relative-caret-position="85">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1228,7 +1263,7 @@
         <state relative-caret-position="102">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,26 +1289,18 @@
         <state relative-caret-position="17">
           <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+        <state relative-caret-position="204">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="109" column="26" lean-forward="false" selection-start-line="109" selection-start-column="26" selection-end-line="109" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1330,24 +1357,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/SpringBootStartApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="15" column="1" lean-forward="false" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="26" lean-forward="true" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/static/css/test.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -1372,18 +1381,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="14" lean-forward="false" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="40" lean-forward="false" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/SpringBootStartApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/myblog_jar/a">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/myblog_jar/ad.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
-          <last-edited>myblog:war</last-edited>
+          <last-edited>myblog:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>

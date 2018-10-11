@@ -1,9 +1,0 @@
-Manifest-Version: 1.0
-Implementation-Title: myblog Maven Webapp
-Implementation-Version: 1.0-SNAPSHOT
-Built-By: chjm
-Implementation-Vendor-Id: com.lain
-Created-By: IntelliJ IDEA
-Build-Jdk: 1.8.0_40
-Main-Class: ${start-class}
-
