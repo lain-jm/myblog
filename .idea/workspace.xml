@@ -7,22 +7,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="312e6dc6-c6bb-4da6-b29b-cee455ce6431" name="Default" comment="springboot 配置">
+      <change beforePath="" afterPath="$PROJECT_DIR$/target/classes/application.yml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/myblog_jar/ad.jsp" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/controller/UserController.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/controller/UserController.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/dao/user/UserMapper.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/dao/user/UserMapper.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/service/impl/user/UserServiceImpl.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/service/impl/user/UserServiceImpl.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/myblog/service/user/UserService.class" afterPath="$PROJECT_DIR$/target/classes/com/myblog/service/user/UserService.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user/UserMapper.xml" afterPath="$PROJECT_DIR$/target/classes/mapper/user/UserMapper.xml" />
     </list>
-    <ignored path="target/" />
-    <ignored path="$PROJECT_DIR$/target/classes/" />
-    <ignored path="$PROJECT_DIR$/target/myblog/" />
-    <ignored path="$PROJECT_DIR$/target/test-classes/" />
-    <ignored path="$PROJECT_DIR$/target/maven-archiver/" />
-    <ignored path="$PROJECT_DIR$/target/maven-status/" />
     <manually-removed-from-ignored>
       <directory path="$PROJECT_DIR$/out/" />
+      <directory path="$PROJECT_DIR$/target/myblog/" />
+      <directory path="target/" />
+      <directory path="$PROJECT_DIR$/target/test-classes/" />
+      <directory path="$PROJECT_DIR$/target/maven-archiver/" />
+      <directory path="$PROJECT_DIR$/target/classes/" />
+      <directory path="$PROJECT_DIR$/target/maven-status/" />
       <directory path="$PROJECT_DIR$/target/" />
     </manually-removed-from-ignored>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -39,7 +34,7 @@
     <splitter split-orientation="horizontal" split-proportion="0.44369587">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="true">
+          <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/controller/UserController.java">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="272">
@@ -51,11 +46,11 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="false">
+          <file leaf-file-name="UserServiceImpl.java" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/service/impl/user/UserServiceImpl.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+                <state relative-caret-position="486">
+                  <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
                   <folding>
                     <element signature="imports" expanded="true" />
                     <element signature="e#1305#1306#0" expanded="true" />
@@ -777,7 +772,7 @@
       <workItem from="1538065478133" duration="1449000" />
       <workItem from="1538070371472" duration="1680000" />
       <workItem from="1538148633169" duration="3901000" />
-      <workItem from="1539279985264" duration="4282000" />
+      <workItem from="1539279985264" duration="4402000" />
     </task>
     <task id="LOCAL-00001" summary="隐藏服务器">
       <created>1537463858979</created>
@@ -835,7 +830,14 @@
       <option name="project" value="LOCAL" />
       <updated>1539284208082</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="springboot 配置">
+      <created>1539284308933</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1539284308933</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -844,7 +846,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25163000" />
+    <option name="totallyTimeSpent" value="25283000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
@@ -1316,24 +1318,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/service/impl/user/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="0" lean-forward="true" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1305#1306#0" expanded="true" />
-            <element signature="e#1345#1346#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
           <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/myblog/service/impl/user/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="49" column="1" lean-forward="true" selection-start-line="49" selection-start-column="1" selection-end-line="49" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1305#1306#0" expanded="true" />
+            <element signature="e#1345#1346#0" expanded="true" />
           </folding>
         </state>
       </provider>
