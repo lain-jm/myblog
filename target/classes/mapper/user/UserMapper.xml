@@ -1,43 +1,43 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--<?xml version="1.0" encoding="UTF-8"?>-->
+<!--<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">-->
 
 <!-- 设置为IUserDao接口方法提供sql语句配置 -->
-<mapper namespace="com.myblog.dao.user.UserMapper">
+<!--<mapper namespace="com.myblog.dao.user.UserMapper">-->
 
-    <!--通过<resultMap>映射实体类属性名和表的字段名对应关系 -->
-    <resultMap id="UserResultMap" type="com.myblog.pojo.user.User">
-        <!-- 用id属性来映射主键字段 -->
-        <id property="id" column="id"/>
-        <!-- 用result属性来映射非主键字段 -->
-        <result property="userName" column="userName"/>
-    </resultMap>
+    <!--&lt;!&ndash;通过<resultMap>映射实体类属性名和表的字段名对应关系 &ndash;&gt;-->
+    <!--<resultMap id="UserResultMap" type="com.myblog.pojo.user.User">-->
+        <!--&lt;!&ndash; 用id属性来映射主键字段 &ndash;&gt;-->
+        <!--<id property="id" column="id"/>-->
+        <!--&lt;!&ndash; 用result属性来映射非主键字段 &ndash;&gt;-->
+        <!--<result property="userName" column="userName"/>-->
+    <!--</resultMap>-->
 
 
-    <!--resultType="User"映射到User类-->
-    <!--<select id="selectUser" resultType="User" parameterType="long">-->
-        <!--SELECT * FROM user WHERE user_id = #{id}-->
-    <!--</select>-->
-    <!--<select id="selectUser" resultMap="UserResultMap" parameterType="Integer">-->
+    <!--&lt;!&ndash;resultType="User"映射到User类&ndash;&gt;-->
+    <!--&lt;!&ndash;<select id="selectUser" resultType="User" parameterType="long">&ndash;&gt;-->
+        <!--&lt;!&ndash;SELECT * FROM user WHERE user_id = #{id}&ndash;&gt;-->
+    <!--&lt;!&ndash;</select>&ndash;&gt;-->
+    <!--&lt;!&ndash;<select id="selectUser" resultMap="UserResultMap" parameterType="Integer">&ndash;&gt;-->
+        <!--&lt;!&ndash;SELECT id,avatar,userName,email,sex,age,createTime,mobile,nickName FROM b_user WHERE id = #{id}&ndash;&gt;-->
+    <!--&lt;!&ndash;</select>&ndash;&gt;-->
+
+    <!--<select id="selectUser" resultType="com.myblog.pojo.user.User" parameterType="Integer">-->
         <!--SELECT id,avatar,userName,email,sex,age,createTime,mobile,nickName FROM b_user WHERE id = #{id}-->
     <!--</select>-->
 
-    <select id="selectUser" resultType="com.myblog.pojo.user.User" parameterType="Integer">
-        SELECT id,avatar,userName,email,sex,age,createTime,mobile,nickName FROM b_user WHERE id = #{id}
-    </select>
+    <!--<select id="selectUserSimple" resultType="com.myblog.pojo.user.User" parameterType="Integer">-->
+        <!--SELECT id,avatar,userName,sex,createTime,nickName FROM b_user WHERE id = #{id}-->
+    <!--</select>-->
 
-    <select id="selectUserSimple" resultType="com.myblog.pojo.user.User" parameterType="Integer">
-        SELECT id,avatar,userName,sex,createTime,nickName FROM b_user WHERE id = #{id}
-    </select>
-
-    <select id="selectUserAll" resultType="com.myblog.pojo.user.User" parameterType="Integer">
-        SELECT id,avatar,userName,token,email,password,sex,age,createTime,mobile,nickName FROM b_user WHERE id = #{id}
-    </select>
+    <!--<select id="selectUserAll" resultType="com.myblog.pojo.user.User" parameterType="Integer">-->
+        <!--SELECT id,avatar,userName,token,email,password,sex,age,createTime,mobile,nickName FROM b_user WHERE id = #{id}-->
+    <!--</select>-->
 
 
-    <insert id="addUser"  parameterType="com.myblog.pojo.user.User" useGeneratedKeys="true" keyProperty="id">
-        INSERT into b_user values (null,#{avatar},#{userName},#{token},#{email},#{password},#{sex},#{age},#{createTime},#{mobile},#{nickName})
-    </insert>
+    <!--<insert id="addUser"  parameterType="com.myblog.pojo.user.User" useGeneratedKeys="true" keyProperty="id">-->
+        <!--INSERT into b_user values (null,#{avatar},#{userName},#{token},#{email},#{password},#{sex},#{age},#{createTime},#{mobile},#{nickName})-->
+    <!--</insert>-->
 
 
 
-</mapper>
+<!--</mapper>-->
