@@ -7,14 +7,15 @@ spring:
             url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8
             username: root
             password: root
-            driver-class-name: com.mysql.cj.jdbc.Driver
-#            #\u6700\u5927\u6D3B\u8DC3\u6570
+#            driver-class-name: com.mysql.cj.jdbc.Driver
+            driver-class-name: com.mysql.jdbc.Driver
+#            #最大活跃数
 #            maxActive: 40
-#            #\u521D\u59CB\u8FDE\u63A5\u6570
+#            #初始连接数
 #            initialSize: 10
-#            #\u6700\u957F\u7B49\u5F85\u65F6\u95F4(\u6BEB\u79D2)
+#            #最长等待时间(毫秒)
 #            maxWait: 60000
-#            #\u6700\u5C0Fidle\u6570\uFF08\u7A7A\u95F2
+#            #最小idle数（空闲
 #            minIdle: 5
 #            #some positive integer
 #            timeBetweenEvictionRunsMillis: 60000
@@ -31,6 +32,7 @@ spring:
 
 mybatis:
     mapperLocations: classpath:mapper/**/*.xml
-    # \u4E0B\u5212\u7EBF\u5F62\u5F0F\u81EA\u52A8\u8F6C\u4E3A\u9A7C\u5CF0\u547D\u540D
-    configuration: mapUnderscoreToCamelCase=true
+    # 下划线形式自动转为驼峰命名
+    configuration:
+        mapUnderscoreToCamelCas: true
 
