@@ -1,7 +1,7 @@
 package com.myblog.service.impl.user;
 
 
-import com.myblog.dao.user.UserMapper;
+import com.myblog.mapper.user.UserMapper;
 import com.myblog.pojo.user.User;
 import com.myblog.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;

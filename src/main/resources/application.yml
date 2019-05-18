@@ -3,32 +3,52 @@ server:
 
 spring:
     datasource:
-            name: test
-            url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8
-            username: root
-            password: root
-#            driver-class-name: com.mysql.cj.jdbc.Driver
-            driver-class-name: com.mysql.jdbc.Driver
-#            #最大活跃数
-#            maxActive: 40
-#            #初始连接数
-#            initialSize: 10
-#            #最长等待时间(毫秒)
-#            maxWait: 60000
-#            #最小idle数（空闲
-#            minIdle: 5
-#            #some positive integer
-#            timeBetweenEvictionRunsMillis: 60000
-#            #set to something smaller than 'wait_timeout'
-#            minEvictableIdleTimeMillis: 300000
-#            #No operations allowed after connection closed\u9519\u8BEF
-#            validationQuery: select 'x'
-#            testWhileIdle: true
-#            #if you don't mind a hit for every getConnection(), set to "true"
-#            testOnBorrow: true
-#            testOnReturn: false
-#            poolPreparedStatements: true
-#            maxOpenPreparedStatements: 20
+        name: test
+        url: jdbc:mysql://localhost:3306/blog?useUnicode=true&characterEncoding=utf8
+        username: root
+        password: root
+#        driver-class-name: com.mysql.cj.jdbc.Driver
+        driver-class-name: com.mysql.jdbc.Driver
+#        #最大活跃数
+#        maxActive: 40
+#        #初始连接数
+#        initialSize: 10
+#        #最长等待时间(毫秒)
+#        maxWait: 60000
+#        #最小idle数（空闲
+#        minIdle: 5
+#        #some positive integer
+#        timeBetweenEvictionRunsMillis: 60000
+#        #set to something smaller than 'wait_timeout'
+#        minEvictableIdleTimeMillis: 300000
+#        #No operations allowed after connection closed\u9519\u8BEF
+#        validationQuery: select 'x'
+#        testWhileIdle: true
+#        #if you don't mind a hit for every getConnection(), set to "true"
+#        testOnBorrow: true
+#        testOnReturn: false
+#        poolPreparedStatements: true
+#        maxOpenPreparedStatements: 20
+    # REDIS (RedisProperties)
+
+    redis:
+        host: 127.0.0.1
+        port: 6379
+        password: root
+#        database: 0
+#        pool:
+##         连接池最大连接数（使用负值表示没有限制）
+#          max-active: 8
+##         连接池最大阻塞等待时间（使用负值表示没有限制）
+#          max-wait: -1
+##         连接池中的最大空闲连接
+#          max-idle: 8
+##         连接池中的最小空闲连接
+#          min-idle: 0
+##       连接超时时间（毫秒）
+#        timeout: 0
+
+
 
 mybatis:
     mapperLocations: classpath:mapper/**/*.xml
