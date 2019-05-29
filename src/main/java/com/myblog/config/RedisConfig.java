@@ -3,7 +3,6 @@ package com.myblog.config;
 import com.fasterxml.jackson.annotation.JsonAutoDetect;
 import com.fasterxml.jackson.annotation.PropertyAccessor;
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.springframework.cache.CacheManager;
 import org.springframework.cache.annotation.EnableCaching;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -71,12 +70,19 @@ public class RedisConfig {
      * 根据类或者方法所使用的注解以及缓存的状态，这个切面会从缓存中获取数据，将数据添加到缓存之中或者从缓存中移除某个值
      */
     @Bean
-    public CacheManager cacheManager(RedisConnectionFactory factory) {
+    public RedisCacheManager cacheManager(RedisConnectionFactory connectionFactory) {
 //        return new RedisCacheManager(redisTemplate);//springboot 1.0
         //spring默认配置
-        RedisCacheManager cacheManager = RedisCacheManager.create(factory);
+        RedisCacheManager cacheManager = RedisCacheManager.create(connectionFactory);
+        //若要进行配置
+//        RedisCacheManager cm = RedisCacheManager.builder(connectionFactory)
+//                .cacheDefaults(defaultCacheConfig())
+//                .initialCacheConfigurations(singletonMap("predefined", defaultCacheConfig().disableCachingNullValues()))
+//                .transactionAware()
+//                .build();
         return cacheManager;
     }
+
 
     /**
      * 缓存管理器
