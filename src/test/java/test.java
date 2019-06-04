@@ -12,6 +12,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 //@RunWith(SpringJUnit4ClassRunner.class) //使用junit4进行测试
 //@ContextConfiguration(locations={"classpath:spring-mybatis.xml"})
@@ -56,7 +57,17 @@ public class test {
     @Test
     public void testRedisTemplate(){
         System.out.println("===========================");
-        template.opsForValue().set("key1", "value1");
+        template.opsForValue().set("key1", "value1",30, TimeUnit.SECONDS);
+        System.out.println(template.opsForValue().get("key1"));
+        System.out.println(System.currentTimeMillis());
+        try { Thread.sleep ( 2000 ) ;
+        } catch (InterruptedException ie){}
+        System.out.println(System.currentTimeMillis());
+        System.out.println(template.getExpire("key1"));
+        System.out.println(template.getExpire("key1",TimeUnit.MINUTES));
+        template.expire("key1",15,TimeUnit.SECONDS);
+        System.out.println(template.getExpire("key1"));
+        System.out.println(template.getExpire("key1",TimeUnit.MINUTES));
         System.out.println(template.opsForValue().get("key1"));
         System.out.println("===========================");
     }

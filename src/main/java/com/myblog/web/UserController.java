@@ -4,6 +4,8 @@ package com.myblog.web;
 import com.myblog.pojo.user.User;
 import com.myblog.service.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -12,6 +14,7 @@ import java.util.Map;
 
 @Controller
 @RequestMapping("/user")
+@CacheConfig(cacheNames = "user")
 public class UserController {
 
     //    @Resource(name="userService")
@@ -19,10 +22,12 @@ public class UserController {
     private UserService userService;
 
     @ResponseBody
+    @Cacheable(/*key = "targetClass + ':' + methodName + '_' + #p0",*/ unless = "#result.size() <= 0")
     @RequestMapping(value = "{id}",method = RequestMethod.GET)
     public Map getUser(@PathVariable("id") Integer userId) throws Exception {
-       User user = this.userService.selectUser(userId);
-       return queryResult(0,user,"成功");
+        System.out.println("如果第二次没有走到这里说明缓存被添加了");
+        User user = this.userService.selectUser(userId);
+        return queryResult(0,user,"成功");
 
     }
 
